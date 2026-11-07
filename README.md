@@ -63,7 +63,7 @@ An interactive academic research web application exploring 120+ years of aviatio
 
 ```bash
 # Clone the repository
-git clone https://github.com/kirana56/aero-research.git
+git clone https://github.com/kiranba56/aero-research.git
 
 # Navigate to project directory
 cd aero-research
