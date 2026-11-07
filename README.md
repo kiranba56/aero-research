@@ -2,8 +2,7 @@
 
 An interactive academic research web application exploring 120+ years of aviation history, aerodynamic breakthroughs, thermodynamic propulsion cycles, flight envelopes, and sustainable net-zero flight horizons.
 
-![Aero Research Cover](https://images.unsplash.com/photo-1519074069444-1ba4ea16e6f4?auto=format&fit=crop&w=1200&q=80)
-
+![Aero Research Cover][def]
 ---
 
 ## ✈️ Features & Capabilities
@@ -90,3 +89,6 @@ npm run build
 - American Institute of Aeronautics and Astronautics (AIAA)
 - Smithsonian National Air and Space Museum Archives
 - ICAO Standard Atmosphere Model (Doc 7488/3)
+
+
+[def]: https://www.aerosociety.com/media/19759/december-2022-aerospace-cover-page-001-web.jpg

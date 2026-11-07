@@ -6,6 +6,7 @@ import { HangarModule } from './components/HangarModule';
 import { WindTunnelSimulator } from './components/WindTunnelSimulator';
 import { FlightEnvelopeModule } from './components/FlightEnvelopeModule';
 import { PropulsionLabModule } from './components/PropulsionLabModule';
+import { ResearchPaperModule } from './components/ResearchPaperModule';
 import { AeroQuizModule } from './components/AeroQuizModule';
 import { AircraftDetailModal } from './components/AircraftDetailModal';
 import { ResearchDossierExportModal } from './components/ResearchDossierExportModal';
@@ -93,6 +94,10 @@ export function App() {
 
         {activeTab === 'propulsion' && (
           <PropulsionLabModule />
+        )}
+
+        {activeTab === 'paper' && (
+          <ResearchPaperModule />
         )}
 
         {activeTab === 'quiz' && (

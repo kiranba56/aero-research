@@ -11,7 +11,8 @@ import {
   X, 
   Compass, 
   Activity,
-  Layers
+  Layers,
+  BookOpen
 } from 'lucide-react';
 import { calculateAtmosphere } from '../utils/aerodynamics';
 
@@ -45,6 +46,7 @@ export const Navbar: React.FC<NavbarProps> = ({ activeTab, setActiveTab, onOpenP
     { id: 'simulator', label: 'Wind Tunnel Lab', icon: Wind },
     { id: 'envelopes', label: 'Flight Envelopes', icon: BarChart3 },
     { id: 'propulsion', label: 'Propulsion & Mach', icon: Flame },
+    { id: 'paper', label: 'Research Paper', icon: BookOpen },
     { id: 'quiz', label: 'Aero IQ', icon: GraduationCap },
   ];
 
